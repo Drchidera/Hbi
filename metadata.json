@@ -1,0 +1,6 @@
+{
+  "name": "Beacon & Harbor US Visa Advisory Portal",
+  "description": "Premier U.S. visa application assistance, document verification, and case management consultancy platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

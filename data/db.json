@@ -1,0 +1,271 @@
+{
+  "users": [
+    {
+      "id": "user-1794403007164",
+      "email": "fff@hfg.dff",
+      "fullName": "Jenni iby",
+      "phone": "095441545",
+      "countryOfResidence": "United States",
+      "role": "applicant",
+      "emailVerified": true,
+      "passwordHash": "de738fa27a2d8d7671b22afc8992a872e46679717dac797d5b7927dd35781f3c0d8909a017f0722fe58203ebd10d4474d21de50d8e1083c727247a6e468d1d5d",
+      "salt": "5fba606e922c3531f00e5d6677788708",
+      "createdAt": "2026-11-11T13:16:47.164Z",
+      "updatedAt": "2026-11-11T13:16:52.295Z"
+    },
+    {
+      "id": "admin-1794403846047",
+      "email": "deratechs@gmail.com",
+      "fullName": "Administrator",
+      "phone": "+1 (202) 847-9201",
+      "countryOfResidence": "United States",
+      "role": "admin",
+      "emailVerified": true,
+      "isRootAdmin": true,
+      "passwordHash": "0a5583dbead23289d3ea686bf5ff1276882c9978ec608fe3c6080adc5b2062e2645becc61463633083e67f1a79fc062219765c1bb9d3d99d7b923712240ebb9b",
+      "salt": "112cfd2ae3c195862740e7fb854e8521",
+      "createdAt": "2026-11-11T13:30:46.047Z",
+      "updatedAt": "2026-11-11T13:30:46.047Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-1794403088516-1yyy",
+      "referenceNumber": "USV-2026-41857",
+      "userId": "user-1794403007164",
+      "applicantName": "Jenni iby",
+      "applicantEmail": "fff@hfg.dff",
+      "visaCategory": "H1B",
+      "status": "Payment Under Review",
+      "statusHistory": [
+        {
+          "id": "sh-1794403168079",
+          "status": "Payment Under Review",
+          "changedAt": "2026-11-11T13:19:28.079Z",
+          "changedBy": "Jenni iby",
+          "note": "Bank transfer payment slip submitted (Ref: 984021948201). Amount: $480. Awaiting administrative verification."
+        },
+        {
+          "id": "sh-1794403131018",
+          "status": "Awaiting Payment",
+          "changedAt": "2026-11-11T13:18:51.018Z",
+          "changedBy": "Jenni iby",
+          "note": "Application formally submitted for processing review. Awaiting administrative payment remittance."
+        },
+        {
+          "id": "sh-1794403088516",
+          "status": "Draft",
+          "changedAt": "2026-11-11T13:18:08.516Z",
+          "changedBy": "Applicant",
+          "note": "Application draft created."
+        }
+      ],
+      "feeAmount": 480,
+      "paymentStatus": "under_review",
+      "createdAt": "2026-11-11T13:18:08.516Z",
+      "updatedAt": "2026-11-11T13:19:28.079Z",
+      "submittedAt": "2026-11-11T13:18:51.018Z",
+      "personalInfo": {
+        "fullName": "Jenni iby",
+        "dateOfBirth": "",
+        "gender": "Male",
+        "nationality": "United States",
+        "countryOfResidence": "United States",
+        "residentialAddress": "",
+        "phone": "095441545",
+        "email": "fff@hfg.dff",
+        "maritalStatus": "Single"
+      },
+      "passportInfo": {
+        "passportNumber": "",
+        "issuingCountry": "",
+        "issueDate": "",
+        "expiryDate": "",
+        "passportPhotoUrl": "",
+        "passportPhotoName": "",
+        "passportPageUrl": "",
+        "passportPageName": ""
+      },
+      "travelInfo": {
+        "purposeOfTravel": "Tourism & Sightseeing",
+        "intendedTravelDate": "",
+        "intendedDurationOfStay": "2 Weeks",
+        "proposedDestination": "New York, NY",
+        "accommodationInfo": "",
+        "travelFundingInfo": "Self-funded from personal savings"
+      },
+      "additionalInfo": {
+        "employmentStatus": "Employed Full-Time",
+        "currentEmployer": "",
+        "jobTitle": "",
+        "monthlyIncome": "",
+        "educationalBackground": "Bachelor's Degree",
+        "previousInternationalTravel": "",
+        "previousUsVisaHistory": "No previous US visa",
+        "hasUsVisaDenial": false,
+        "usVisaDenialDetails": "",
+        "additionalNotes": ""
+      },
+      "documents": [],
+      "paymentId": "pay-1794403168079-7ze8"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "pm-chase-primary",
+      "label": "Primary Corporate Wire & ACH Account",
+      "bankName": "JPMorgan Chase Bank, N.A.",
+      "accountName": "Beacon & Harbor Visa Advisory Group LLC",
+      "accountNumber": "984021948201",
+      "swiftOrRouting": "Routing: 021000021 / SWIFT: CHASUS33",
+      "instructions": "Please initiate a domestic ACH or international wire transfer. CRITICAL: Include your Application Reference Number in the transfer memo or reference field. After transfer completion, take a clear screenshot or save the bank PDF advice and upload it below.",
+      "isActive": true,
+      "visaFees": {
+        "B1_B2": 240,
+        "F1": 290,
+        "J1": 275,
+        "H1B": 480,
+        "OTHER": 320
+      }
+    },
+    {
+      "id": "pm-bofa-secondary",
+      "label": "Secondary Escrow & International Processing",
+      "bankName": "Bank of America, N.A.",
+      "accountName": "Beacon & Harbor Global Advisory Operations",
+      "accountNumber": "442088194029",
+      "swiftOrRouting": "Routing: 054000030 / SWIFT: BOFAUS3N",
+      "instructions": "Direct branch deposit or SWIFT international wire transfer. Reference your Full Legal Name and Application Number on the deposit receipt.",
+      "isActive": true,
+      "visaFees": {
+        "B1_B2": 240,
+        "F1": 290,
+        "J1": 275,
+        "H1B": 480,
+        "OTHER": 320
+      }
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-1794403168079-7ze8",
+      "referenceNumber": "PAY-2026-77240",
+      "applicationId": "app-1794403088516-1yyy",
+      "applicationRef": "USV-2026-41857",
+      "applicantId": "user-1794403007164",
+      "applicantName": "Jenni iby",
+      "applicantEmail": "fff@hfg.dff",
+      "visaCategory": "H1B",
+      "amount": 480,
+      "currency": "USD",
+      "paymentMethodId": "pm-chase-primary",
+      "bankName": "JPMorgan Chase Bank, N.A.",
+      "accountName": "Beacon & Harbor Visa Advisory Group LLC",
+      "accountNumber": "984021948201",
+      "transactionReference": "984021948201",
+      "paymentDate": "2026-11-11",
+      "receiptFileUrl": "/api/files/1794403165022-257a9eb824e3.png",
+      "receiptFileName": "IMG_6683.png",
+      "status": "pending_review",
+      "submittedAt": "2026-11-11T13:19:28.079Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv-user-1794403007164",
+      "applicantId": "user-1794403007164",
+      "applicantName": "Jenni iby",
+      "applicantEmail": "fff@hfg.dff",
+      "status": "open",
+      "unreadByAdmin": 0,
+      "unreadByApplicant": 0,
+      "lastMessageAt": "2026-11-11T13:19:54.183Z",
+      "lastMessageText": "Conversation channel initialized.",
+      "messages": [
+        {
+          "id": "msg-welcome",
+          "conversationId": "conv-user-1794403007164",
+          "senderId": "system",
+          "senderRole": "admin",
+          "senderName": "Beacon & Harbor Senior Advisory Desk",
+          "text": "Welcome, Jenni iby. If you have any inquiries regarding your U.S. visa category requirements, documents, or manual wire transfer verification, reply here. Our advisory officers will respond directly.",
+          "createdAt": "2026-11-11T13:19:54.183Z"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1794403168079-vxxl6",
+      "userId": "user-1794403007164",
+      "title": "Payment Receipt Submitted",
+      "message": "Your payment confirmation for $480 (Ref: PAY-2026-77240) has been submitted and is awaiting administrative verification.",
+      "type": "payment_submitted",
+      "link": "/dashboard/payments",
+      "isRead": false,
+      "createdAt": "2026-11-11T13:19:28.079Z"
+    },
+    {
+      "id": "notif-1794403131018-u8b35",
+      "userId": "user-1794403007164",
+      "title": "Application Formally Submitted",
+      "message": "Application USV-2026-41857 has been submitted. Please complete fee payment to proceed with review.",
+      "type": "application_submitted",
+      "link": "/dashboard/applications/app-1794403088516-1yyy",
+      "isRead": false,
+      "createdAt": "2026-11-11T13:18:51.018Z"
+    },
+    {
+      "id": "notif-1794403088517-f9rzo",
+      "userId": "user-1794403007164",
+      "title": "Application Draft Saved",
+      "message": "Application USV-2026-41857 (H1B) has been created. Status: Draft.",
+      "type": "application_submitted",
+      "link": "/dashboard/applications/app-1794403088516-1yyy",
+      "isRead": false,
+      "createdAt": "2026-11-11T13:18:08.517Z"
+    },
+    {
+      "id": "notif-1794403012295-jmhdy",
+      "userId": "user-1794403007164",
+      "title": "Email Verified",
+      "message": "Your email address has been successfully verified.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-11-11T13:16:52.295Z"
+    },
+    {
+      "id": "notif-1794403007165-gybji",
+      "userId": "user-1794403007164",
+      "title": "Welcome to Beacon & Harbor",
+      "message": "Your applicant account has been created. Your email verification PIN is 675660.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-11-11T13:16:47.165Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1794403846048-s0m8q",
+      "timestamp": "2026-11-11T13:30:46.048Z",
+      "adminId": "admin-1794403846047",
+      "adminName": "Administrator",
+      "action": "INITIAL_ADMIN_INITIALIZED",
+      "targetType": "auth",
+      "targetId": "admin-1794403846047",
+      "details": "Root administrator account initialized for deratechs@gmail.com"
+    }
+  ],
+  "settings": {
+    "websiteName": "Beacon & Harbor U.S. Visa Advisory Group",
+    "supportEmail": "advisory@beaconharbor-visa.com",
+    "supportPhone": "+1 (202) 847-9201",
+    "officeAddress": "1200 Pennsylvania Ave NW, Suite 800, Washington, D.C. 20004",
+    "disclaimerNotice": "Beacon & Harbor provides premier visa application assistance, document verification, and procedural advisory services.",
+    "announcementTitle": "Advisory Bulletin: DS-160 & Consular Interview Scheduling Slots",
+    "announcementText": "Please note that consular interview wait times vary by post. Ensure all supporting bank statements and invitation letters are uploaded at least 14 days before your designated submission window.",
+    "isAnnouncementActive": true,
+    "termsAndConditions": "1. Scope of Services: Beacon & Harbor provides administrative document review, procedural guidance, and application management services. We do not guarantee visa approval, as all adjudications are within the sole discretion of U.S. Consular authorities.\n2. Manual Payment Policy: All application support service fees must be remitted via manual bank wire/transfer to the verified corporate accounts designated in the portal.\n3. Confidentiality: All client records and uploaded travel credentials are encrypted and held in strict compliance with international privacy protocols.",
+    "privacyPolicy": "We collect applicant passport details, employment backgrounds, and financial proofs solely to evaluate visa eligibility and prepare compliant filings. Client documentation is retained under strict access controls and is never monetized or sold to third parties."
+  }
+}
